@@ -18,3 +18,13 @@ display: inline;
     height: 400px;
     width: 100%;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    position: relative;
+    text-align: center;
+}
