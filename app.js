@@ -22,10 +22,6 @@ var indexRoutes      = require("./routes/index");
 var url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp_v7"
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true,});
 
-// mongoose.connect(process.env.DATABASEURL, {useNewUrlParser: true, useUnifiedTopology: true,});
-//mongoose.connect("mongodb+srv://richiecs:rollcage1@campanion.9hp2c.mongodb.net/campanion?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true,});
-
-
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
@@ -64,6 +60,3 @@ app.listen(port, function () {
     console.log("Hello World");
   });
   
-// app.listen(3000, function(){
-//     console.log("Hello World");
-// });
