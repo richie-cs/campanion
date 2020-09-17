@@ -1,5 +1,5 @@
 Live Demo
-To see the app in action, go to https://dashboard.heroku.com/apps/stark-river-10366
+To see the app in action, go to https://stark-river-10366.herokuapp.com/
 
 Features
 Authentication:
