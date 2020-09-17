@@ -1,5 +1,9 @@
 #hide api keys
 
 .env
+<<<<<<< HEAD
 node_modules
+=======
+/node_modules
+>>>>>>> 3d096a234c4f11ca9e5274156313cad387bbc732
 
