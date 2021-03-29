@@ -16,7 +16,7 @@ Create, edit and delete posts and comments
 
 Upload campground photos
 
-Display campground location on Google Maps (working on it)
+Display campground location on Google Maps 
 
 Search existing campgrounds
 
